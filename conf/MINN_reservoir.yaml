@@ -1,0 +1,15 @@
+defaults:
+  - dataset: only_2_EX_&_5_reference
+  - gem: iAF1260_split_FBA
+  - model: amn_qp_reservoir
+  - hpo: hpo_baseline
+  - loss_aggregator: sum
+  - loss_weight_scheduler: no_scheduler
+  - loss_balancer: no_balancer
+  - _self_
+
+seed: 12345
+exp_name: ${model.model_name}_${hpo.hpo_name}_${gem.gem_name}_${dataset.dataset_name}
+
+execution: remote
+gpu_id: 0

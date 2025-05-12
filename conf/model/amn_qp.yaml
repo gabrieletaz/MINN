@@ -1,0 +1,9 @@
+l1_type: NE
+qp_decay_rate: 0.9
+qp_lr: 0.01
+qp_iter: 8
+model_type: AMN
+model_name: amn_qp
+model_reservoir: False
+
+device: cuda:0

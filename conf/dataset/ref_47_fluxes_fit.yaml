@@ -1,0 +1,17 @@
+dataset_name: ref_47_fluxes_fit
+fluxes_removed_from_reference: []
+
+fluxes_to_add_input: ['R_EX_glc__D_e_rev', 'R_EX_o2_e_rev']
+
+# fluxes where the metrics will be calculated
+metric_fluxes: ['R_GLCptspp', 'R_PGI_fwd', 'R_PFK', 'R_FBA_fwd', 'R_TPI_fwd',
+       'R_PGK_rev', 'R_GAPD_fwd', 'R_ENO_fwd', 'R_PGM_rev', 'R_PYK', 'R_PDH',
+       'R_G6PDH2r_fwd', 'R_PGL', 'R_GND', 'R_RPE_fwd', 'R_RPI_rev',
+       'R_TKT1_fwd', 'R_TALA_fwd', 'R_TKT2_fwd', 'R_CS', 'R_ACONTb_fwd',
+       'R_ACONTa_fwd', 'R_ICDHyr_fwd', 'R_SUCOAS_rev', 'R_AKGDH', 'R_SUCDi',
+       'R_FUM_fwd', 'R_MDH_fwd', 'R_PPC', 'R_ME2', 'R_ICL', 'R_MALS',
+       'R_ACKr_rev', 'R_PTAr_fwd', 'R_LDH_D_rev', 'R_ACALD_rev',
+       'R_ALCD2x_rev',  'R_EX_co2_e_fwd', 'R_EX_etoh_e','R_EX_ac_e', 'R_EX_lac__D_e',
+       'R_EX_succ_e', 'R_EX_pyr_e', 'R_EX_for_e','R_BIOMASS_Ec_iAF1260_core_59p81M']
+
+kos_genes: False
